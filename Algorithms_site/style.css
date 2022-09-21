@@ -1,0 +1,138 @@
+body{
+    background-color: lightgray;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: block;
+}
+
+#topbar{
+    height: 10%;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    margin: 5px;
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
+
+#view_window{
+    height: 65%;
+    width: 65%;
+    background-color: beige;
+    border-width: 1px;
+    border-style: dotted;
+    position: absolute;
+}
+
+#actions{
+    height: 24%;
+    width: 100%;
+    bottom: 0%;
+    z-index: -1;
+    background-color: lightgray;
+    border-width: 2px;
+    position: absolute;
+}
+
+.network_node{
+    height: 125px;
+    width: 125px;
+    margin: 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    position: absolute;
+    text-align: center;
+}
+
+.activity_name{
+    left: 55px;
+    top: 10px;
+    position: absolute;
+}
+
+.est{
+    left: 30px;
+    top: 40px;
+    position: absolute;
+}
+
+.lst{
+    left: 30px;
+    top: 60px;
+    position: absolute;
+}
+
+.precedence-form{
+    float: right;
+    margin-right: 0%;
+    width: 34%;
+    background-color: #bbb;
+    z-index: 2;
+}
+
+.precedence-table{
+    padding: 30px;
+    text-align: center;
+}
+
+.title-element-right{
+    border-bottom: solid;
+    border-left: solid;
+    border-width: 1px;
+    padding: 20px;
+    text-align: center;
+}
+
+.title-element-center{
+    border-bottom: solid;
+    border-left: solid;
+    border-right: solid;
+    border-width: 1px;
+    padding: 20px;
+    text-align: center;
+}
+
+.title-element-left{
+    border-bottom: solid;
+    border-right: solid;
+    border-width: 1px;
+    padding: 20px;
+    text-align: center;
+}
+
+.button-elements{
+    height: 70px;
+}
+
+#submit{
+    background-color: green;
+    color: white;
+    height: 50px;
+}
+
+#add{
+    background-color: green;
+    color: white;
+    height: 50px;
+}
+
+.buttons{
+    float: center;
+    margin: 20px;
+    padding: 15px;
+}
+
+.Activity-inputs{
+    background: transparent;
+    text-align: center;
+    border: 0px;
+    height: 30px;
+}
+
+.Activity-inputs:focus{
+    outline: none;
+}

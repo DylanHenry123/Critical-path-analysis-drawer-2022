@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <div id="topbar">
+                <h1>CRITICAL PATH ANALYSIS</h1>
+            </div>
+            <div id="view_window">
+                
+            </div>
+
+            <div class="precedence-window">
+                <div class="precedence-form">
+                    <table id="precedence-table">
+                        <tr class="title-row">
+                            <td class="title-element-left">
+                                <h2>Activity Name</h2>
+                            </td>
+                            <td class="title-element-center">
+                                <h2>Precedence</h2>
+                            </td>
+                            <td class="title-element-right">
+                                <h2>Duration</h2>
+                            </td>
+                        </tr>
+
+                        <tr class="Activity-inputs">
+                            <td class="title-element-left">
+                                <input id="activity-0" class="Activity-inputs">
+                            </td>
+                            <td class="title-element-center">
+                                <input id="precedence-0" class="Activity-inputs">
+                            </td>
+                            <td class="title-element-right">
+                                <input id="duration-0" class="Activity-inputs">
+                            </td>
+                        </tr>
+                    </table>
+
+                    <div class="buttons">
+                        <button id="submit" onclick="submission()">Submit</button>
+                        <button id="add" onclick="add_element()">Add Activity</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="actions">
+                <h3>FLOATS: </h3>
+
+            </div>
+        </div>
+
+
+        <script src="algorithms.js"></script>
+    </body>
+</html>
